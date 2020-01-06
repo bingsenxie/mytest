@@ -1,1 +1,33 @@
-<mxfile host="www.draw.io" modified="2020-01-06T00:45:07.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="eIzqqY773axVbQCn5Tw-" version="12.4.8" type="github" pages="2"><diagram id="7FySgdGSZC3azZEk2Vnn" name="Page-1">rZRNc5swEIZ/DUdmQNjUOdpO0nSctJm4Mz3LaAFNBcKysHF+fVZG4sM0GR86HCSe/Xq1I60XrYvmu6JV/iIZCI8ErPGie4+Q8G5xh4shZ0tmcdySTHFmWQ+2/B0sDCytOYPDyFFLKTSvxjCRZQmJHjGqlDyN3VIpxlUrmsEEbBMqpvQPZzpv6WIe9PwJeJa7ymFgLQV1zhYccsrkaYCiBy9aKyl1uyuaNQjTPdeXNu7xE2snTEGpbwl43rNfUb3/WRWbBczPb7Pt25M/b7McqajtgT0SC8y3YvxoROuz7US8r43S1U42/oG/8zLzouVOKgbKR4aWU9uf5aUFc+NKk7+ZknWJCpYeiWBmPjRUlLE2AalMZJ8dd5lZf9OdgJIW4OTguS6KWrOj2rj9U+ZETCpLbYSDgVBcVQ0SbFYna5CHTLwOFU2uvYLpCTqJakKYI6+bwfF6PHWsS76v4Qf70t3AabEvyj9uwhvrp1LhJS83cP6/Cm4tz0Gwq9twY3UD20viOBndF3IEpTm+96XAAyLSskI3av8EpCZKolcqLq835fiqolWuC1zuwy6lyQPNp28z7F48zkqQBWiFvQxsgO/miR2TfvjNglM/dMKFZflg4JDYQmoHXdYl72cBbuw4cL/92LnYBtM7evgA</diagram><diagram id="xI2JzchMaBl9uPsw5fb4" name="Page-2">ldG9DoIwEADgp+loUmg0OiP+JcaBwdFUekKTwmGpAX16IS1iw6JTr1+vd/0hLCrareZVfkQBioRUtIStSRgGAVt1Qy9PKwsaWsi0FC5phES+wCF1+pACai/RICojKx9TLEtIjWdca2z8tBsqv2vFM5hAknI11bMUJre6nNPRdyCzfOgcULdS8CHZQZ1zgc0XsZiwSCMaGxVtBKp/vOFdGoB7fElUVC/p/nRVT9kcZrbY5p8tnytoKM2vpbtgPFo38T6YxW8=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-06T02:57:55.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="0dw50EzqcjaEuerFfsfe" version="12.4.8" type="github" pages="2">
+  <diagram id="7FySgdGSZC3azZEk2Vnn" name="Page-1">
+    <mxGraphModel dx="2517" dy="1499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="LqdO3uqNpmK8e5yR4SRH-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;agreement(协议表)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;ID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;agreement_type_id（协议类型ID）&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="-250" width="230" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="6H1ZUyYsbKM88KtSM8RW-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;brokerage_fee_log(经纪费结算日志)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;保单Id（policy_id）&lt;br&gt;批单Id（policy_change_id）&lt;br&gt;待付经纪费(brokerage_fee)&lt;br&gt;已付经纪费(brokerage_fee_paid)&lt;br&gt;支付日期(paid_date)&lt;br&gt;create_user&lt;br&gt;create_time&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="20" width="230" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="6H1ZUyYsbKM88KtSM8RW-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;insurance_agent（保险经办人）&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;insurance_product_id&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; style=&quot;font-size: 1em ; width: 230px&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;(保险产品id)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;agent_name(经办人名称)&lt;br&gt;contact(联系电话)&lt;br&gt;email(邮箱)&lt;br&gt;post(职务)&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="20" width="230" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="6H1ZUyYsbKM88KtSM8RW-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;insurance_product（保险产品）&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;product_company_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="20" width="180" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="6H1ZUyYsbKM88KtSM8RW-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Tablename&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="310" width="180" height="90" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xI2JzchMaBl9uPsw5fb4" name="Page-2">
+    <mxGraphModel dx="1139" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="weeqE_SlCs80IOblyiwJ-0"/>
+        <mxCell id="weeqE_SlCs80IOblyiwJ-1" parent="weeqE_SlCs80IOblyiwJ-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
